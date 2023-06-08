@@ -82,7 +82,7 @@ class FakeDefaultTasksRepository : IDefaultTasksRepository {
         TODO("Not yet implemented")
     }
 
-    fun addTask(vararg tasks: Task) {
+    fun addTasks(vararg tasks: Task) {
         tasks.forEach { task ->
             tasksData[task.id] = task
         }
