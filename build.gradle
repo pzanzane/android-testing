@@ -52,4 +52,7 @@ ext {
     timberVersion = '4.7.1'
     archTestingVersion = '2.1.0'
     fragmentVersion = '1.1.0-alpha07'
+    mockitoVersion = '5.3.1'
+    dexMakerVersion = '2.28.3'
+
 }

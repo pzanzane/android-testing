@@ -83,6 +83,9 @@ dependencies {
 
     debugImplementation "androidx.fragment:fragment-testing:$fragmentVersion"
     debugImplementation "androidx.test:core:$androidXTestCoreVersion"
+    androidTestImplementation "org.mockito:mockito-core:$mockitoVersion"
+    androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:$dexMakerVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoVersion"
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
